@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    align-items: center;
+    background-color: #f0f0f0;
+    display: flex;
+    font-family: Arial, sans-serif;
+    height: 100%;
+    justify-content: center; 
+    margin: 0;
+    padding: 0;
+    text-align: center;  
+}
+
+.hidden {
+    display: none;
+}
+
+.game-title {
+    font-size: 2.5rem;
+    color: #4d9aff;
+}
+
+.modal {
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.modal-content {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+}
+
+.modal-button {
+    background-color: #007bff;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px;
+    padding: 10px 20px;
+}
+
+.modal-button:hover {
+    background-color: #0056b3;
+}
+
+#game-container {
+    background: #ffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: grid;
+    gap: 12px; 
+    max-width: 500px;  
+    min-width: 300px;
+    padding: 20px;
+    text-align: center;
+}
+
+#letter-input {
+    border-radius: 0;
+    border: none;
+    border-bottom: solid black;
+    display: flex;
+    font-size: 2rem;
+    height: 48px;
+    justify-self: center;
+    margin: 12px;
+    text-align: center;
+    width: 48px;
+}
+
+#guesses-left {
+    font-size: .75rem;
+}
+
+button {
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px;
+    padding: 10px 20px;
+}
+
+#quit-button {
+    background-color: #ff5252;
+    border: none;
+    color: white;
+}
+
+#quit-button:hover {
+    background-color: #cc0000;
+}
+
+#reset-scores {
+    background-color: #28a745;
+    border: none;
+    color: white;
+}
+
+#reset-scores:hover {
+    background-color: #1e7e34;
+}
+
+#results {
+    margin-top: 20px;
+    text-align: center;
+}
